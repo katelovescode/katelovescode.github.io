@@ -11,24 +11,9 @@ header {
   background-color:rgba(33, 33, 33, 0.9);
   color:#ffffff;
   display:block;
-  height:350px;
+  height:20em;
   position:relative;
   z-index:5;
-  h2 {
-    font-size: 22px;
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 80%;
-    text-align: center;
-  }
-  a, a:visited {
-    text-decoration:none;
-    color:#fcfcfc;
-  }
-}
-h2 {
-  margin-top: 30px;
-  text-align: center;
 }
 
 @keyframes move-twink-back {
@@ -101,7 +86,7 @@ h2 {
   -o-animation:move-clouds-back 200s linear infinite;
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
-  padding: 50px;
+  padding-top: 3em;
   box-sizing: border-box;
 }
 
