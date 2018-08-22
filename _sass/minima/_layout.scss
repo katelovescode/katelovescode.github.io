@@ -1,6 +1,12 @@
 /**
  * Site header
  */
+
+.nav-anchor {
+  padding-top: 3em;
+  display: block;
+}
+
 .site-header {
   min-height: $spacing-unit * 1.865;
 
