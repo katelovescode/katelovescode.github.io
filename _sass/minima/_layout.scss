@@ -1,6 +1,12 @@
 /**
  * Site header
  */
+.wrapper {
+  h2 {
+    padding-top: 3em;
+  }
+}
+
 .site-header {
   min-height: $spacing-unit * 1.865;
 

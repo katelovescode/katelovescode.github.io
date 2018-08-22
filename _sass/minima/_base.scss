@@ -108,8 +108,15 @@ a {
 
   &:visited {
     color: darken($brand-color, 15%);
+    text-decoration: none;
+    text-decoration-line: none;
   }
-
+  
+  &:focus {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  
   &:hover {
     color: $text-color;
     text-decoration: underline;
@@ -179,6 +186,7 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
+  margin-top: -4em;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;

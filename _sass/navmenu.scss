@@ -1,0 +1,31 @@
+nav {
+  position: fixed;
+  height: 2em;
+  z-index: 10;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: #444;
+  color: #fff;
+  #menu {
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    margin: auto;
+    li {
+      &:not(:last-child):after {
+        content: '\2042';
+        margin-left: 5px;
+        font-size: 0.5em;
+        vertical-align: middle;
+      }
+      a {
+        color: #dbdbdb;
+      }
+      display: inline-block;
+      list-style-type: none;
+    }
+  }
+}
