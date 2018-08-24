@@ -2,8 +2,14 @@
  * Site header
  */
 .wrapper {
-  .about {
+  .about-row {
     text-align: center;
+    .column {
+      text-align: center;
+      p {
+        text-align: justify;
+      }
+    }
   }
   h2::before { 
     display: block; 
@@ -41,13 +47,6 @@ nav {
   }
 }
 
-.column {
-  text-align: center;
-  p {
-    text-align: justify;
-  }
-}
-
 .experience {
   padding: 5px;
   .experience-header {
@@ -61,6 +60,17 @@ nav {
     .job-title {
       font-weight: bold;
       font-size: 1.3em;
+    }
+  }
+}
+.contributions-row {
+  .project {
+    // border: 1px solid ;
+    box-shadow: 2px 2px 20px #888888;
+    padding: 20px;
+    margin-bottom: 20px;
+    h4 {
+      font-size: 1.2em;
     }
   }
 }
