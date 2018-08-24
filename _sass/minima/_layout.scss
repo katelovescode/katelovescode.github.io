@@ -48,6 +48,22 @@ nav {
   }
 }
 
+.experience {
+  padding: 5px;
+  .experience-header {
+    background-color: #F53A5F;
+    padding: 15px;
+    margin-bottom: 25px;
+    // border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px #888888;
+    .job-title {
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .column {
     float: left;
