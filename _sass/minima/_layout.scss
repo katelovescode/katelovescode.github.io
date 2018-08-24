@@ -7,7 +7,10 @@
     .column {
       text-align: center;
       p {
-        text-align: justify;
+        @media only screen and (min-width: 758px) {
+          text-align: justify;
+        }
+        text-align: left;
       }
     }
   }
@@ -71,6 +74,9 @@ nav {
     margin-bottom: 20px;
     h4 {
       font-size: 1.2em;
+    }
+    ul {
+      margin-top: 10px;
     }
   }
 }
