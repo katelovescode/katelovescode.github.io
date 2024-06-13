@@ -1,11 +1,17 @@
-<header>
-  <img src="{{ '/images/logo.svg' | relative_url }}" alt="Logo" />
-</header>
+<div class="nav-container">
+  <header>
+    <img src="{{ '/images/infinity.svg' | relative_url }}" alt="Logo" />
+    <div class="title">
+      <h1>Kate Donaldson</h1>
+      <h2>Consulting</h2>
+    </div>
+  </header>
 
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about' | relative_url }}">About</a></li>
-    <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about' | relative_url }}">About</a></li>
+      <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
+    </ul>
+  </nav>
+</div>

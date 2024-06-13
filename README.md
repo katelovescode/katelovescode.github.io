@@ -29,6 +29,7 @@ Welcome to your new Bridgetown website! You can update this README file to provi
 cd bridgetown-site-folder
 bundle install && yarn install
 ```
+
 > Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
 
 ## Development
@@ -68,3 +69,10 @@ If repo is on GitHub:
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request
+
+## Resources
+
+- [Umami Analytics](https://cloud.umami.is)
+- [Sticky Header style change on scroll](https://css-tricks.com/how-to-detect-when-a-sticky-element-gets-pinned/)
+- [Color Palette](https://coolors.co/d60270-b92983-9b4f96-4e449f-0038a8)
+- [SVG Icon in the Editor](https://svgmix.com/editor/zE8oY7)
