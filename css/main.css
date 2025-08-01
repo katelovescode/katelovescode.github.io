@@ -48,6 +48,9 @@
 
 /* Body
 ---------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #12151b;
   font: 15px/30px "merriweather-regular", serif;
@@ -575,17 +578,14 @@ header {
 }
 
 #main-header {
-  display: flex;
-  align-items: center;
   box-shadow: 0 0 3px #687a9d;
 }
 
 header .logo {
   display: inline-block;
   vertical-align: middle;
-  margin: 0;
+  margin: 15px 15px 15px 0;
   padding: 0;
-  margin-right: 15px;
 
   /* add position relative since z-index only applies to
 	elements that have been given an explicit position */
@@ -623,13 +623,9 @@ header .logo a:hover {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   display: inline-block;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-/* hide toggle button */
-#nav-wrap > a {
-  display: none;
-}
 ul#nav {
   min-height: 72px;
   width: auto;
@@ -833,6 +829,10 @@ section {
 #hero a.contact:hover {
   color: #fdfdfd;
   background: #12151b;
+}
+
+#hero .hero-content {
+  margin-right: 10px;
 }
 
 /* 

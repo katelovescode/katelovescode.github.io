@@ -8,10 +8,6 @@
 
 /* small screens */
 @media only screen and (max-width: 900px) {
-  header {
-    height: 131px;
-  }
-
   #why-choose-me .why-choose-me-content {
     max-width: 460px;
   }
@@ -252,23 +248,19 @@
   }
 } /* 400 */
 
-/* make sure the menu is visible on larger screens
--------------------------------------------------------------------------- */
-@media only screen and (min-width: 768px) {
-  #nav-wrap ul#nav {
-    display: block !important;
-  }
-}
-
 /* Mobile First Adjustments */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 475px) {
   body {
     background-position: left top;
   }
-  .hero-content {
+  #hero .hero-content {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .hero-content {
     float: left;
-    text-align: left;
   }
   .testimonial-quote-right {
     width: 40%;
@@ -276,10 +268,70 @@
   }
   #hero a.contact {
     width: 50%;
-    /* margin: auto; */
     float: left;
   }
   #services {
     clear: both;
+  }
+}
+
+@media only screen and (min-width: 651px) {
+  #hero .hero-content {
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #nav-wrap ul#nav {
+    display: block !important;
+  }
+
+  .header-inner {
+    display: flex;
+    width: 100%;
+    margin: 0 10px;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  header .logo {
+    padding: 17px 0;
+    line-height: 38px;
+    margin: 0 5px 0 0;
+  }
+
+  #hero {
+    padding-top: 87px;
+  }
+
+  /* hide toggle button */
+  #nav-wrap > a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  header .logo {
+    margin: 0 15px 0 0;
+  }
+
+  #hero .hero-content,
+  #hero .testimonial-quote-right {
+    float: none;
+  }
+
+  #hero .testimonial-quote-right {
+    position: relative;
+    left: 0;
+    top: 70px;
+    float: left;
+  }
+
+  #hero a.contact {
+    float: none;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 20%;
   }
 }
