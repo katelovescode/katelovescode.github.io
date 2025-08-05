@@ -892,6 +892,9 @@ section {
   color: #b13a7f;
   margin: 0;
 }
+#testimonials .section-head h1 span {
+  color: #b13a7f;
+}
 #testimonials p {
   color: #252525;
 }
