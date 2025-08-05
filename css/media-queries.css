@@ -6,15 +6,8 @@
 /*
 /* =================================================================== */
 
-/* small screens */
-@media only screen and (max-width: 900px) {
-  #why-choose-me .why-choose-me-content {
-    max-width: 460px;
-  }
-} /* 900 */
-
 /* tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 788px) {
   /* header styles */
   header {
     background: #12151b;
@@ -186,16 +179,6 @@
     padding: 0 60px;
   }
 
-  /* why-choose-me section */
-  #why-choose-me h3 {
-    text-align: center;
-  }
-  #why-choose-me .left {
-    padding-right: 10px;
-  }
-  #why-choose-me .right {
-    padding-left: 10px;
-  }
   /* contact section */
   #contact .form-section {
     padding-left: 40px;
@@ -230,17 +213,6 @@
     padding-left: 0;
   }
 
-  /* why-choose-me section */
-  #why-choose-me .why-choose-me-content {
-    padding: 0 30px;
-  }
-  #why-choose-me .left {
-    padding: 0;
-  }
-  #why-choose-me .right {
-    padding: 0;
-  }
-
   /* contact section */
   #contact .form-section {
     padding-left: 30px;
@@ -249,39 +221,23 @@
 } /* 400 */
 
 /* Mobile First Adjustments */
-@media only screen and (min-width: 475px) {
-  body {
-    background-position: left top;
-  }
-  #hero .hero-content {
-    width: 50%;
-  }
-}
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 769px) {
   .hero-content {
-    float: left;
-  }
-  .testimonial-quote-right {
-    width: 40%;
     float: right;
   }
-  #hero a.contact {
-    width: 50%;
+  .testimonial-quote-right {
+    width: 350px;
     float: left;
+  }
+  #hero a.contact {
+    width: 30%;
+    float: right;
+    margin-top: 30px;
   }
   #services {
     clear: both;
   }
-}
-
-@media only screen and (min-width: 651px) {
-  #hero .hero-content {
-    padding-left: 10%;
-  }
-}
-
-@media only screen and (min-width: 769px) {
   #nav-wrap ul#nav {
     display: block !important;
   }
@@ -312,26 +268,25 @@
 }
 
 @media only screen and (min-width: 1081px) {
+  body {
+    background-position: left top;
+  }
   header .logo {
     margin: 0 15px 0 0;
-  }
-
-  #hero .hero-content,
-  #hero .testimonial-quote-right {
-    float: none;
   }
 
   #hero .testimonial-quote-right {
     position: relative;
     left: 0;
     top: 70px;
-    float: left;
   }
+}
 
-  #hero a.contact {
-    float: none;
-    margin-left: auto;
-    margin-top: 50px;
-    width: 20%;
+@media only screen and (min-width: 1700px) {
+  #hero .testimonial-quote-right {
+    top: 170px;
+  }
+  #hero .hero-content {
+    width: 625px;
   }
 }

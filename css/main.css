@@ -18,7 +18,7 @@
     i. Common and shared styles
     j. Hero
     k. Services
-    l. Why Choose Me
+    l. Testimonials
     m. Contact
 
 /* =================================================================== */
@@ -60,7 +60,9 @@ body {
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   background-size: cover !important;
-  background-position: left -210px top;
+  background-position: right top;
+  max-width: 1800px;
+  margin: auto;
 }
 
 /* Links
@@ -540,7 +542,7 @@ input::-moz-focus-inner {
 ---------------------------------------------------------------------- */
 .testimonial-quote-right {
   background-color: #eee9e9;
-  padding: 0 5px 5px 5px;
+  padding: 10px 25px 25px 25px;
   margin: 20px;
   text-align: left;
   box-shadow: 2px 2px 5px #687a9d;
@@ -552,10 +554,6 @@ input::-moz-focus-inner {
   color: #5b5b5b;
   margin: 0;
   padding: 5px;
-}
-
-.testimonial-quote-right aside {
-  padding: 18px 30px 0px 0px;
 }
 
 /* 
@@ -818,7 +816,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 18px 20px;
-  margin: 10px;
+  margin: 10px 50px;
   text-align: center;
   line-height: 24px;
   display: block;
@@ -833,6 +831,7 @@ section {
 
 #hero .hero-content {
   margin-right: 10px;
+  max-width: 425px;
 }
 
 /* 
@@ -870,37 +869,7 @@ section {
 }
 
 /* 
-/*  l. Why Choose Me
-/* =================================================================== */
-
-#why-choose-me {
-  background: #fdfdfd;
-}
-#why-choose-me .about-content {
-  max-width: 934px;
-}
-#why-choose-me h3 {
-  font: 16px/36px "raleway-heavy", sans-serif;
-  text-transform: none;
-  padding: 0;
-  margin-bottom: 0;
-}
-#why-choose-me p {
-  color: #252525;
-}
-#why-choose-me .left {
-  padding-right: 30px;
-}
-#why-choose-me .right {
-  padding-left: 30px;
-}
-
-#why-choose-me > .row.section-head p {
-  text-align: left;
-}
-
-/* 
-/*  Testimonials
+/*  l. Testimonials
 /* =================================================================== */
 #testimonials {
   width: 100%;
