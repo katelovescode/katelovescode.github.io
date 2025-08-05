@@ -234,6 +234,7 @@
     width: 30%;
     float: right;
     margin-top: 30px;
+    clear: right;
   }
   #services {
     clear: both;
